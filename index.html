@@ -11,16 +11,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 
 <body>
     <header class="sticky-top">
         <nav class="ps-3 navbar bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/img/logo.png" alt="Gina Logo" id="logo" class="d-inline-block align-text-middle">
-                    <span id="logo-name">Gina</span>
-                </a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="/img/logo/logo.png" alt="Gina Logo" id="logo"
+                                class="d-inline-block align-text-middle">
+                            <span id="logo-name">Gina</span>
+                        </a>
+                    </li>
+                    <li class="nav-item my-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item my-auto">
+                        <a class="nav-link" href="team.html">Meet the Team</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -45,36 +57,71 @@
                     </p>
                 </div>
             </section>
+            <scetion id="social-proof" class="d-flex flex-column mt-5">
+                <h2 class="p-2 mx-auto">Affiliations</h2>
+                <div class="row">
+                    <div class="col-6 pt-3 d-grid gap">
+                        <img src="./img/logo/dti.png" class="mx-auto img-logo"
+                            alt="Department of Trade and Industry Logo">
+                        <p class="mt-2 mx-auto fst-italic text-center">Registered under the<br>
+                            <span class="fw-bold">Department of Trade and Industry</span>
+                        </p>
+                    </div>
+                    <div class="col-6 pt-3 d-grid gap">
+                        <img src="./img/logo/beecall.jpg" class="mx-auto img-logo" alt="BEECALL Logo">
+                        <p class="mt-2 mx-auto fst-italic text-center">
+                            Part of the first cohort of<br>
+                            <span class="fw-bold">BEECALL Technology Business Incubator</span>
+                        </p>
+                    </div>
+                </div>
+                <h2 class="p-2 mx-auto">Milestones</h2>
+                <div class="row">
+                    <div class="col-6 pt-3 d-grid gap">
+                        <img src="./img/logo/pandalivery.jpg" class="mx-auto my-auto img-logo"
+                            alt="Pandalivery's BOOTUP Program Logo">
+                        <p class="mt-2 mx-auto fst-italic text-center">Part of the<br>
+                            <span class="fw-bold">2022 Pandalivery’s BOOTUP Program</span>
+                        </p>
+                    </div>
+                    <div class="col-6 pt-3 d-grid gap">
+                        <img src="./img/logo/qbo.jpg" class="mx-auto img-logo" alt="QBO Logo">
+                        <p class="mt-2 mx-auto fst-italic text-center">
+                            Placed 6th out of 109 startups during <br>
+                            <span class="fw-bold">QBO Innovation Hub's Qompete: Intercollegiate Technopreneurs
+                                Challenge</span>
+                        </p>
+                    </div>
+                </div>
+            </scetion>
             <section id="pitch-deck" class="d-flex flex-column mt-5">
                 <h2 class="p-2 mx-auto">Getting to know your partner</h2>
                 <div class="p-2 ratio ratio-21x9">
                     <iframe src="doc/ginaph_pitchdeck.pdf" frameborder="0" title="Gina Pitch Deck"
-                        allowfullscreen></iframe>
+                        allowfullscreen="true"></iframe>
                 </div>
                 <div class="row">
                     <div class="col-6 pt-3 d-grid gap">
 
-                        <a class="btn button shadow-lg my-auto main-btn mt text-center" id="cta"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSdtMjQF4X5ffgxV_zMlb-qgaKqA2FbZqQyK6o_UHDRN9-mphA/viewform">
-                            Partner with us
+                        <a class="btn button shadow-lg my-auto secondary-btn mt text-center" id="cta"
+                            href="https://www.facebook.com/ginatravel.ph">
+                            <i class="fa-brands fa-facebook"></i> Visit our Facebook Page
                         </a>
-                        <p class="mx-auto fst-italic btn-subtitle">Grow your business with Gina</p>
                     </div>
                     <div class="col-6 pt-3 d-grid gap">
 
                         <a class="btn button shadow-lg my-auto secondary-btn mt text-center" id="cta"
-                            href="mailto:ginatravel.ph@gmail.com">
-                            Contact us
+                            href="https://www.instagram.com/ginatravel.ph/">
+                            <i class="fa-brands fa-instagram-square"></i> Checkout our Instagram
                         </a>
-                        <p class="mx-auto fst-italic btn-subtitle">Got questions? Feel free to email us</p>
                     </div>
                 </div>
             </section>
             <section id="brochure" class="d-flex flex-column mt-5">
-                <h2 class="p-2 mx-auto">Think Local. Feel Local. Be Local</h2>
+                <h2 class="p-2 mx-auto">Think Local. Find Local. Be Local</h2>
                 <div class="p-2 ratio ratio-21x9">
                     <iframe src="doc/ginaph_brochure.pdf" frameborder="0" title="Gina Brochure"
-                        allowfullscreen></iframe>
+                        allowfullscreen="true"></iframe>
                 </div>
                 <div class="row">
                     <div class="col-6 pt-3 d-grid gap">
@@ -100,13 +147,14 @@
         <footer class="mt-5 p-4">
             <div class="row">
                 <div class="col-lg-3">
-                    <p><a href="mailto:ginatravel.ph@gmail.com"><i class="fa-solid fa-envelope"></i> <span
+                    <p><a href="mailto:ginatravel.ph@gmail.com"><i class="footer-links fa-solid fa-envelope"></i> <span
                                 class="cstm-link">ginatravel.ph@gmail.com</span></a>
                     </p>
-                    <p><a href="https://www.facebook.com/ginatravel.ph"><i class="fa-brands fa-facebook"></i> <span
-                                class="cstm-link">Gina</span></a>
+                    <p><a href="https://www.facebook.com/ginatravel.ph"><i
+                                class="footer-links fa-brands fa-facebook"></i> <span class="cstm-link">Gina</span></a>
                     </p>
-                    <p><a href="https://www.instagram.com/ginatravel.ph/"><i class="fa-brands fa-instagram-square"></i>
+                    <p><a href="https://www.instagram.com/ginatravel.ph/"><i
+                                class="footer-links fa-brands fa-instagram-square"></i>
                             <span class="cstm-link">Gina</span></a></p>
                     <p><i class="fa-solid fa-square-phone"></i> 09171086557</p>
 

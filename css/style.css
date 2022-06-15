@@ -24,15 +24,29 @@ footer {
     color: white;
 }
 
-a:link,
-a:visited,
-a:active {
+/*   */
+p>a:link,
+p>a:visited,
+p>a:active {
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+p>a:hover {
     color: #F7BD06;
+    text-decoration: none;
+}
+
+nav a:link,
+nav a:visited,
+nav a:active {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0640F7;
     text-decoration: none;
 }
 
@@ -57,6 +71,11 @@ a:hover {
     text-align: center;
 }
 
+.img-logo {
+    height: 200px;
+    width: auto;
+}
+
 #hero-subtitle {
     font-size: 19pt;
 }
@@ -70,10 +89,15 @@ a:hover {
     font-weight: 1000;
 }
 
+#pandalivery {
+    width: 240px;
+    background-color: #18B74D;
+}
+
 @media only screen and (max-width: 767px) {
 
-    button {
-        font-size: 10pt;
+    .button {
+        font-size: 14pt;
     }
 
     #cta {
