@@ -73,7 +73,7 @@ a:hover {
 @media only screen and (max-width: 767px) {
 
     button {
-        font-size: 14pt;
+        font-size: 10pt;
     }
 
     #cta {
