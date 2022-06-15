@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+header {
+    border-bottom: 5px solid #F7BD06;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
+
+.button {
+    font-size: 22pt;
+    color: white;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #363636;
+    font-weight: 1000;
+    color: white;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7BD06;
+    text-decoration: none;
+}
+
+.cstm-link {
+    text-decoration: underline;
+}
+
+#loc {
+    width: 100%;
+}
+
+.main-btn {
+    background-color: #F7BD06;
+}
+
+.secondary-btn {
+    background-color: #0640F7;
+}
+
+.btn-subtitle {
+    font-weight: 100;
+    text-align: center;
+}
+
+#hero-subtitle {
+    font-size: 19pt;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
+
+#logo-name {
+    font-weight: 1000;
+}
+
+@media only screen and (max-width: 767px) {
+
+    button {
+        font-size: 14pt;
+    }
+
+    #cta {
+        font-size: 22pt;
+    }
+}
